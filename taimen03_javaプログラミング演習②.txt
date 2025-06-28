@@ -1,0 +1,27 @@
+Javaプログラミング演習②
+以下の指示に従って、課題に取り組んでみましょう。
+
+１．以下の名前のリストから、"a"を含む名前のみをフィルタリングし、大文字に
+  変換して出力するプログラムをStream APIとラムダ式を使って作成しましょう。
+  import java.util.Arrays;
+  import java.util.List;
+
+  public class Main{
+    public static void main(String[] args){
+      List<String> names = Arrays.asList("Tanaka","Suzuki","Yamada","Sato","Nakamura");
+      //ここにコードを書いてください。
+    }
+  }
+
+２．以下手順でペットショップシミュレーションを作成しましょう。
+  Petインタフェースを作成し、鳴き声に関するmakeSound()メソッドを定義する
+  DogとCatクラスを作成し、Petインタフェースを実装する。
+  PetShopクラスを作成し、ペットを管理できるようにする。
+  MainクラスでDogとCatのインスタンスを作成し、PetShopに追加して動作を確認する。
+  import java.util.*;
+
+  public class Main{
+    public static void main(String[] args){
+      //ここにコードを記述
+    }
+  }
