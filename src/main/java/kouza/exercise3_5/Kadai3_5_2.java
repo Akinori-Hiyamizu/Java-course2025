@@ -12,7 +12,6 @@ public class Kadai3_5_2 {
     StudentsManager manager = new StudentsManager();
 
     while (true) {
-      System.out.println("ＰＲテスト");//この行はPull Requestのテスト用です。
       System.out.println("\n====== ＭＥＮＵ =====");
       System.out.println("１．学生を追加");
       System.out.println("２．学生を削除");
